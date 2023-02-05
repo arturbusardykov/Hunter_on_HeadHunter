@@ -15,7 +15,7 @@ headers = { "User-Agent": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) Apple
 work = Session()
 
 
-work.get("https://hh.ru/account/login?backurl=%2F&hhtmFrom=account_login", headers=headers)
+wor, heak.get("https://hh.ru/account/login?backurl=%2F&hhtmFrom=account_login"ders=headers)
 
 response = work.get("https://hh.ru/account/login?backurl=%2F&hhtmFrom=account_login", headers=headers)
 
@@ -35,7 +35,7 @@ data={"_xsrf": token,
 
 "remember": "yes",
 "username": "79057649481",
-"password": "Artur******",
+"password": "Arturb15",
 "username": "79057649481",
 "isBot": "false"}
 
