@@ -37,7 +37,7 @@ data={"_xsrf": token,
 "username": "79057649481",
 "password": "Artur******",
 "username": "79057649481",
-"isBot": ""}
+"isBot": "false"}
 
 result = work.post("https://hh.ru/account/login?backurl=/", headers=headers, data=data, allow_redirects=True)
 print(result.text)
