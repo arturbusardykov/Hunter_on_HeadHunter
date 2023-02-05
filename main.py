@@ -1,15 +1,15 @@
+import fake_useragent
 from requests import Session
 from  bs4 import BeautifulSoup
 import requests
 from time import sleep
+from fake_useragent import UserAgent
 
-headers = {"User-Agent": "CroockedHands/2.0 (EVM x8), CurlyFingers20/1;p"}
-
-
-
+import selenium as webdriver
 
 
 
+headers = { "User-Agent": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.195.10 Safari/532.0"}
 
 
 work = Session()
@@ -35,12 +35,19 @@ data={"_xsrf": token,
 
 "remember": "yes",
 "username": "79057649481",
-"password": "Arturb1",
+"password": "Arturb15",
 "username": "79057649481",
 "isBot": ""}
 
 result = work.post("https://hh.ru/account/login?backurl=/", headers=headers, data=data, allow_redirects=True)
 print(result.text)
+
+# button = driver.find_element(By.CLASS_NAME, 'bloko-button bloko-button_kind-primary bloko-button_stretched')
+# button.click()
+
+
+
+
 
 
 
