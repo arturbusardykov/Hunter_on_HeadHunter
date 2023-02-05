@@ -35,7 +35,7 @@ data={"_xsrf": token,
 
 "remember": "yes",
 "username": "79057649481",
-"password": "Arturb15",
+"password": "Artur******",
 "username": "79057649481",
 "isBot": ""}
 
