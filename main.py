@@ -15,7 +15,7 @@ headers = { "User-Agent": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) Apple
 work = Session()
 
 
-wor, heak.get("https://hh.ru/account/login?backurl=%2F&hhtmFrom=account_login"ders=headers)
+work.get("https://hh.ru/account/login?backurl=%2F&hhtmFrom=account_login"ders=headers)
 
 response = work.get("https://hh.ru/account/login?backurl=%2F&hhtmFrom=account_login", headers=headers)
 
@@ -40,10 +40,14 @@ data={"_xsrf": token,
 "isBot": "false"}
 
 result = work.post("https://hh.ru/account/login?backurl=/", headers=headers, data=data, allow_redirects=True)
+ 
 print(result.text)
+ 
+ 
 
 # button = driver.find_element(By.CLASS_NAME, 'bloko-button bloko-button_kind-primary bloko-button_stretched')
-# button.click()
+# button.click() 
+
 
 
 
